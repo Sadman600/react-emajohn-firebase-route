@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1C2B35;
+    height: 80px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}

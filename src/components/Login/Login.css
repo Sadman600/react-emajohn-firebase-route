@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Add styles to the form container */
+.container {
+    margin: 5px auto;
+    max-width: 350px;
+    padding: 16px;
+    border: 2px solid gray;
+    background-color: white;
+}
+
+.container label {
+    display: block;
+    text-align: start;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    font-family: verdana;
+    /* font-weight: 800; */
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.hr2 {
+    display: flex;
+}
